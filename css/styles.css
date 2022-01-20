@@ -1,10 +1,152 @@
-.list-button {
-  cursor: pointer;
+.body {
+  font-family: Roboto, sans-serif;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+/*----------header----------------------*/
+.header {
+}
+.nav {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+}
+/*---------------logo-------------------*/
+.logo {
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--title-text-color);
+  position: absolute;
+  left: 215px;
+  top: 24px;
+  font-weight: bold;
+}
+.accent {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #188ce8;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration-line: none;
+}
+
+/*---------------site-nav----------------*/
+.nav-link {
+  text-decoration: none;
   font-family: inherit;
   font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-link);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #188ce8;
+}
+.current {
+  color: #2196f3;
+}
+.curent:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #188ce8;
+}
+/*---------------contacts-header-------------*/
+.nav-auth-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.nav-auth-link:hover {
+  color: #188ce8;
+}
+
+/*------------work-examples---------------------*/
+.banner {
+  width: 1600px;
+  height: 600px;
+  color: #ffffff;
+  background-color: #2f303a;
+}
+.visually-hidden {
+  position: absolute;
+  width: 696px;
+  height: 200px;
+  left: 452px;
+  top: 280px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.list-works {
+}
+.list-button-1 {
+  cursor: pointer;
+  background-color: #2196f3;
+  font-weight: 700;
   font-size: 16px;
-  line-height: calc(26 / 16);
-  letter-spacing: 0.03em;
-  color: var(--title-text-colour);
-  background-color: var(--button-background-colour);
+  align-items: center;
+  line-height: 1.9;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 106px;
+  border-radius: 4px;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+}
+.list-button-1:hover,
+.list-button-1:focus {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #188ce8;
+}
+.list-button:hover,
+.list-button:focus {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #188ce8;
+}
+
+/*------------------our-works--- ----------------------*/
+.team {
+}
+.project-list {
+}
+.works {
+}
+.name {
+}
+.position {
 }
